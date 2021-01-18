@@ -276,7 +276,8 @@ class SSLChecker:
 
         # Enable JSON output if -j/--json argument specified
         if user_args.json_true:
-            print(json.dumps(context))
+#            print(json.dumps(context))
+            return context
 
         if user_args.json_save_true:
             for host in context.keys():
