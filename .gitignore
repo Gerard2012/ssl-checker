@@ -1,3 +1,4 @@
 *.pyc
 *.csv
+*.txt
 email_settings.py
